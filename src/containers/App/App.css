@@ -1,20 +1,40 @@
 .App {
   margin: auto;
-  text-align: center;
   width: 50rem;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.App-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.App-content > div {
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  /*flex-grow: 1;*/
+  width: 50%;
+
 }
 
 .App-intro {
-  font-size: large;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.4rem;
+  padding: 2rem;
 }
 
 @media (max-width: 900px) {
   .App {
     width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .App-content {
+    flex-direction: column-reverse;
+  }
+
+  .App-content > div {
+    width: 100%;
   }
 }
