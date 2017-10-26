@@ -5,10 +5,6 @@ import Buttons from '../../components/Buttons/Buttons';
 import './App.css';
 
 export class App extends Component {
-  constructor(props) {
-    super(props);
-  }
-  
   componentWillMount() {
     const script = document.createElement('script');
 
