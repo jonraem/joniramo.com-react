@@ -9,7 +9,7 @@ export class App extends Component {
   componentWillMount() {
     const link = document.createElement('link');
     link.rel = 'stylesheet';
-    link.href = 'https://fonts.googleapis.com/css?family=Inconsolata';
+    link.href = 'https://fonts.googleapis.com/css?family=Roboto+Mono';
 
     const script = document.createElement('script');
     script.src = 'https://use.fontawesome.com/8d1def7579.js';
