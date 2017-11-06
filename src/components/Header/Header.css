@@ -2,14 +2,14 @@
   background-color: #222;
   color: white;
   display: flex;
-  min-height: 10rem;
+  min-height: 10.5rem;
   justify-content: center;
   padding: 20px;
 }
 
 .App-logo {
-  height: 10rem;
-  width: 12rem;
+  height: 11rem;
+  width: 14rem;
 }
 
 /* SIGNATURE STYLES */

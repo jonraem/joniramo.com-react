@@ -16,13 +16,8 @@
 	font-size: 6rem;
 }
 
-.at-sign {
-	display: block;
-  font-size: 4rem;
-  left: 45%;
-  position: absolute;
-  top: 36%;
-	transform: rotate(17deg);
+.App-button span {
+	font-size: 1.75rem;
 }
 
 @media (max-width: 768px) {
@@ -40,14 +35,8 @@
 		font-size: 8rem;
 	}
 
-	a.animated-button.thar-three.em {
-		font-size: 1.75rem !important;
-	}
-
-	.at-sign {
-		font-size: 5.5rem;
-		left: 41%;
-		top: 31%;
+	.App-button span {
+		font-size: 2.31rem;
 	}
 }
 
@@ -59,26 +48,20 @@
 
 @media (max-width: 428px) {
 	.App-buttons {
-		width: 90%;
+		width: 16rem;
 	}
 
 	.App-button {
-		height: 10rem;
-		width: 10rem;
+		height: 4rem;
+		width: 4rem;
 	}
 
 	.App-button i {
-		font-size: 10rem;
+		font-size: 4rem;
 	}
 
-	a.animated-button.thar-three.em {
-		font-size: 2.25rem !important;
-	}
-
-	.at-sign {
-		font-size: 6.25rem;
-		left: 42%;
-		top: 34%
+	.App-button span {
+		font-size: 1.1rem;
 	}
 }
 
@@ -107,8 +90,6 @@ a.animated-button.thar-three.em {
 	border: 2px solid #000 !important;
 	color: #000;
 	color: linear-gradient(to right, #56ab2f, #a8e063);
-	font-size: 1.45rem;
-	line-height: 1.3;
 	text-align: left;
 }
 

@@ -23,8 +23,7 @@ export class Header extends Component {
             <i className="fa fa-instagram" aria-hidden="true"></i>
           </a>
           <a href="mailto:joni@joniramo.com" className="App-button animated-button thar-three em">
-            <span>Email me</span>
-            <span className="at-sign">@</span>
+            <span>Send me email</span>
           </a>
         </div>
       </div>
