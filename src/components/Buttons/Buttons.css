@@ -48,8 +48,8 @@
 
 /* BUTTONS SPECIFIC STYLES */
 a.animated-button.thar-three.gh {
-	border: 2px solid #202529 !important;
-	color: #202529;
+	border: 2px solid #000 !important;
+	color: #000;
 }
 
 a.animated-button.thar-three.gh:before {
@@ -57,8 +57,8 @@ a.animated-button.thar-three.gh:before {
 }
 
 a.animated-button.thar-three.li {
-	border: 2px solid #006CAC !important;
-	color: #006CAC;
+	border: 2px solid #000 !important;
+	color: #000;
 }
 
 a.animated-button.thar-three.li:before {
@@ -66,8 +66,8 @@ a.animated-button.thar-three.li:before {
 }
 
 a.animated-button.thar-three.em {
-	border: 2px solid #56ab2f !important;
-	color: #56ab2f;  /* fallback for old browsers */
+	border: 2px solid #000 !important;
+	color: #000;  /* fallback for old browsers */
 	color: linear-gradient(to right, #56ab2f, #a8e063); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	font-size: 1.45rem;
 	text-align: left;
@@ -79,8 +79,8 @@ a.animated-button.thar-three.em:before {
 }
 
 a.animated-button.thar-three.tw {
-	border: 2px solid #1A97F0 !important;
-	color: #1A97F0;
+	border: 2px solid #000 !important;
+	color: #000;
 }
 
 a.animated-button.thar-three.tw:before {
@@ -88,8 +88,8 @@ a.animated-button.thar-three.tw:before {
 }
 
 a.animated-button.thar-three.me {
-	border: 2px solid #201D1D !important;
-	color: #201D1D;
+	border: 2px solid #000 !important;
+	color: #000;
 }
 
 a.animated-button.thar-three.me:before {
@@ -97,8 +97,8 @@ a.animated-button.thar-three.me:before {
 }
 
 a.animated-button.thar-three.ig {
-	border: 2px solid #d6249f !important;
-	color: #d6249f;
+	border: 2px solid #000 !important;
+	color: #000;
 	color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 
