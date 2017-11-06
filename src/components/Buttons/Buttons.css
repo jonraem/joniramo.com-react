@@ -2,13 +2,13 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	margin-top: 2rem;
+	margin: 2rem auto 0;
+	width: 20rem;
 }
 
 .App-button {
 	height: 6rem;
-	margin-top: 2rem;
-	margin: 2rem .5rem .5rem;
+	margin: 1.5rem .5rem .5rem;
 	width: 6rem;
 }
 
@@ -28,6 +28,7 @@
 @media (max-width: 768px) {
 	.App-buttons {
 		margin-top: 0;
+		width: 36rem;
 	}
 
 	.App-button {
@@ -50,7 +51,17 @@
 	}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 640px) {
+	.App-buttons {
+		width: 24rem;
+	}
+}
+
+@media (max-width: 428px) {
+	.App-buttons {
+		width: 90%;
+	}
+
 	.App-button {
 		height: 10rem;
 		width: 10rem;
