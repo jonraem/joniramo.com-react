@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-ga": "^2.3.5",
     "react-svg": "^2.1.22"
   },
   "devDependencies": {
