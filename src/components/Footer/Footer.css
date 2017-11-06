@@ -1,0 +1,9 @@
+.App-footer {
+  padding: 2rem 1rem;
+}
+
+@media (max-width: 600px) {
+  .App-footer {
+    font-size: 1.2rem;
+  }
+}

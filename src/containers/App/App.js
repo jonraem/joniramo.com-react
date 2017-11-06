@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Header from '../../components/Header/Header';
 import Buttons from '../../components/Buttons/Buttons';
+import Footer from '../../components/Footer/Footer';
 import './App.css';
 
 export class App extends Component {
@@ -29,7 +30,7 @@ export class App extends Component {
             </p>
           </div>
         </div>
-        <div className="App-footer"></div>
+        <Footer/>
       </div>
     );
   }

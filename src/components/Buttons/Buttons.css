@@ -26,6 +26,10 @@
 }
 
 @media (max-width: 600px) {
+	.App-buttons {
+		margin-top: 0;
+	}
+
 	.App-button {
 		height: 7rem;
 		width: 7rem;

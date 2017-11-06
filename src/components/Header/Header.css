@@ -2,7 +2,7 @@
   background-color: #222;
   color: white;
   display: flex;
-  height: 150px;
+  min-height: 10rem;
   justify-content: center;
   padding: 20px;
 }

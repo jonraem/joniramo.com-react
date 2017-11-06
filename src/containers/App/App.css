@@ -1,4 +1,14 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.App-content {
+  flex: 1 0 auto;
+}
+
+.App {
   margin: auto;
   width: 50rem;
 }
@@ -9,16 +19,12 @@
 }
 
 .App-content > div {
-  box-sizing: border-box;         /* Opera/IE 8+ */
-  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-  /*flex-grow: 1;*/
+  box-sizing: border-box;
   width: 50%;
-
+  height: fit-content;
 }
 
 .App-intro {
-  font-family: "Inconsolata", monospace;
   font-size: 1.4rem;
   padding: 2rem;
 }
