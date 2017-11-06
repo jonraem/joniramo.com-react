@@ -148,35 +148,29 @@ a.animated-button.thar-three.ig:before {
 
 /* ANIMATIONS */
 a.animated-button:link, a.animated-button:visited {
-	position: relative;
-	display: block;
-	padding: 14px 15px;
+	border-radius: 0;
 	color: #fff;
+	display: block;
 	font-size:14px;
 	font-weight: bold;
+	letter-spacing: .08em;
+	overflow: hidden;
+	padding: 14px 15px;
+	position: relative;
 	text-align: center;
 	text-decoration: none;
-	text-transform: uppercase;
-	overflow: hidden;
-	letter-spacing: .08em;
-	border-radius: 0;
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
+	text-transform: uppercase;
 	transition: all 1s ease;
 }
 
 a.animated-button:link:after, a.animated-button:visited:after {
 	content: "";
-	height: 0%;
+	height: 0;
 	left: 50%;
 	position: absolute;
 	top: 50%;
 	transition: all 0.75s ease 0s;
-	-webkit-transition: all 0.75s ease 0s;
-	-moz-transition: all 0.75s ease 0s;
-	-o-transition: all 0.75s ease 0s;
 	width: 150%;
 	z-index: -1;
 }
@@ -198,16 +192,13 @@ a.animated-button:link, a.animated-button:visited {
 	font-weight: bold;
 	letter-spacing: .08em;
 	overflow: hidden;
-	position: relative;
 	padding: 14px 15px;
+	position: relative;
 	text-align: center;
 	text-decoration: none;
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
 	text-transform: uppercase;
 	transition: all 1s ease;
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
 }
 
 a.animated-button.thar-three {
