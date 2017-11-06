@@ -21,7 +21,10 @@ export class Header extends Component {
         <a href="https://instagram.com/jonraem" target="_blank" rel="noopener noreferrer" className="App-button animated-button thar-three ig" aria-label="Link to Instagram">
           <i className="fa fa-instagram" aria-hidden="true"></i>
         </a>
-        <a href="mailto:joni@joniramo.com" className="App-button animated-button thar-three em">Email me</a>
+        <a href="mailto:joni@joniramo.com" className="App-button animated-button thar-three em">
+          <span>Email me</span>
+          <span className="at-sign">@</span>
+        </a>
       </div>
     );
   }

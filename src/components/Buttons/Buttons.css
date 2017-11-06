@@ -16,6 +16,15 @@
 	font-size: 5rem;
 }
 
+.at-sign {
+	display: block;
+	font-size: 3.5rem;
+	left: 48%;
+	position: absolute;
+	top: 42%;
+	transform: rotate(17deg);
+}
+
 @media (max-width: 600px) {
 	.App-button {
 		height: 7rem;
@@ -24,6 +33,12 @@
 
 	.App-button i {
 		font-size: 7rem;
+	}
+
+	.at-sign {
+		font-size: 5.5rem;
+		left: 35%;
+		top: 31%;
 	}
 }
 
