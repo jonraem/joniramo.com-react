@@ -18,10 +18,10 @@
 
 .at-sign {
 	display: block;
-	font-size: 3.5rem;
-	left: 48%;
-	position: absolute;
-	top: 42%;
+  font-size: 4rem;
+  left: 45%;
+  position: absolute;
+  top: 36%;
 	transform: rotate(17deg);
 }
 
@@ -58,6 +58,16 @@
 
 	.App-button i {
 		font-size: 10rem;
+	}
+
+	a.animated-button.thar-three.em {
+		font-size: 2.25rem !important;
+	}
+
+	.at-sign {
+		font-size: 6.25rem;
+		left: 42%;
+		top: 34%
 	}
 }
 
