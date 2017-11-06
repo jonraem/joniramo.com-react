@@ -1,15 +1,36 @@
 .App-header {
   background-color: #222;
   color: white;
+  display: flex;
   height: 150px;
+  justify-content: center;
   padding: 20px;
 }
 
-.App-title {
-  font-size: 1.5em;
-  text-align: center;
+.App-logo {
+  height: 10rem;
+  width: 12rem;
 }
 
-.App-logo {
-  height: 80px;
+/* SIGNATURE STYLES */
+.main-stroke {
+  animation: write1 1.5s 1 ease-in;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  stroke-dasharray: 555;
+  stroke-linecap: round;
+}
+
+@keyframes write1 {
+    0% {
+        stroke-dashoffset: 555;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
 }
