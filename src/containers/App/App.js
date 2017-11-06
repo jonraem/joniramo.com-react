@@ -23,7 +23,7 @@ export class App extends Component {
           <Buttons/>
           <div className="App-intro">
             <p>
-              Hello, my name is Joni Rämö. I'm a web developer and entrepreneur from the beautiful city of Turku in Finland.
+              Hello, my name is Joni Rämö. I'm a <u>web developer</u> and <u>entrepreneur</u> from the beautiful city of Turku in Finland.
             </p>
             <p>
               Find out more about me or drop me an email to say hello!
