@@ -8,11 +8,10 @@ export class Header extends Component {
   render() {
     return (
       <header className="App-header">
-        <ReactSVG
-          className="App-logo"
-          path={signature}
-          alt="Logo"
-        />
+        <div className="overlay"/>
+        <div className="App-logo">
+          <ReactSVG path={signature} alt="Logo"/>
+        </div>
       </header>
     );
   }

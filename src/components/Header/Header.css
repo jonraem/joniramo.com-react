@@ -1,16 +1,19 @@
 .App-header {
-  background: #222;
+  animation: panning 60s infinite ease-in-out;
+  background: #222 url(../../assets/img/joey-kyber-107712.jpg);
   color: white;
   display: flex;
+  justify-content: center;
   max-height: 11rem;
   min-height: 11rem;
-  justify-content: center;
   padding: 20px;
+  position: relative;
 }
 
 .App-logo {
   height: 11rem;
   width: 14rem;
+  z-index: 3;
 }
 
 /* SIGNATURE STYLES */
@@ -34,4 +37,27 @@
         stroke-dashoffset: 0;
         opacity: 1;
     }
+}
+
+/* HIDDEN BACKGROUND STYLES */
+.overlay {
+  background: rgba(0,0,0,0.3);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+@keyframes panning {
+  0% {
+    background-position: 100% 30%;
+  }
+  50% {
+    background-position: 0 30%;
+  }
+  100% {
+    background-position: 100% 30%;
+  }
 }
