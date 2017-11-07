@@ -85,13 +85,12 @@ a.animated-button.thar-three.li:before {
 a.animated-button.thar-three.em {
 	border: 2px solid #000 !important;
 	color: #000;
-	color: linear-gradient(to right, #56ab2f, #a8e063);
 	text-align: left;
 }
 
 a.animated-button.thar-three.em:before {
-	background: #a8e063;
-	background: linear-gradient(to right, #56ab2f, #a8e063);
+	background: #D0412E;
+	background: linear-gradient(45deg, rgba(168,49,25,1) 0%, rgba(255,78,51,1) 100%);
 }
 
 a.animated-button.thar-three.tw {
@@ -115,7 +114,6 @@ a.animated-button.thar-three.me:before {
 a.animated-button.thar-three.ig {
 	border: 2px solid #000 !important;
 	color: #000;
-	color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 
 a.animated-button.thar-three.ig:before {
