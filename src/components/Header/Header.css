@@ -2,7 +2,8 @@
   background-color: #222;
   color: white;
   display: flex;
-  min-height: 10.5rem;
+  max-height: 11rem;
+  min-height: 11rem;
   justify-content: center;
   padding: 20px;
 }
