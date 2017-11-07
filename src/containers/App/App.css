@@ -43,4 +43,8 @@
   .App-content > div {
     width: 100%;
   }
+
+  .App-intro {
+    padding: 2rem 2rem 1rem;
+  }
 }
