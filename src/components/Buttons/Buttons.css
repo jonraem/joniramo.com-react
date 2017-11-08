@@ -17,7 +17,7 @@
 }
 
 .App-button span {
-	font-size: 1.75rem;
+	font-size: 1.2rem;
 }
 
 @media (max-width: 768px) {
@@ -57,10 +57,30 @@
 	}
 
 	.App-button span {
-		font-size: 1.1rem;
+		font-size: .769rem;
 	}
 }
 
+/* ICON LOADING SPECIFIC STYLES */
+i.fa {
+	display: none;
+}
+
+.App-button {
+	text-align: left;
+}
+
+.fa-events-icons-ready .App-button {
+	text-align: center;
+}
+
+.fa-events-icons-ready .backup-label {
+	display: none;
+}
+
+.fa-events-icons-ready i.fa {
+	display: inline-block;
+}
 
 /* BUTTONS SPECIFIC STYLES */
 a.animated-button.thar-three.gh {
@@ -132,7 +152,6 @@ a.animated-button:link, a.animated-button:visited {
 	overflow: hidden;
 	padding: 14px 15px;
 	position: relative;
-	text-align: center;
 	text-decoration: none;
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
 	text-transform: uppercase;
@@ -169,7 +188,6 @@ a.animated-button:link, a.animated-button:visited {
 	overflow: hidden;
 	padding: 14px 15px;
 	position: relative;
-	text-align: center;
 	text-decoration: none;
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
 	text-transform: uppercase;
