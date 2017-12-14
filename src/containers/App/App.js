@@ -11,12 +11,7 @@ export class App extends Component {
     link.rel = 'stylesheet';
     link.href = 'https://fonts.googleapis.com/css?family=Roboto+Mono';
 
-    const script = document.createElement('script');
-    script.src = 'https://use.fontawesome.com/8d1def7579.js';
-    script.async = true;
-
     document.head.appendChild(link);
-    document.body.appendChild(script);
   }
 
   render() {
