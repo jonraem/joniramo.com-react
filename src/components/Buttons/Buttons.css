@@ -62,24 +62,13 @@
 }
 
 /* ICON LOADING SPECIFIC STYLES */
-i.fa {
-	display: none;
-}
-
 .App-button {
 	text-align: left;
 }
 
-.fa-events-icons-ready .App-button {
-	text-align: center;
-}
-
-.fa-events-icons-ready .backup-label {
-	display: none;
-}
-
-.fa-events-icons-ready i.fa {
-	display: inline-block;
+.svg-inline--fa {
+	height: 100% !important;
+	width: 100% !important;
 }
 
 /* BUTTONS SPECIFIC STYLES */
