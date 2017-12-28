@@ -66,6 +66,22 @@
 	text-align: left;
 }
 
+i.fab {
+	display: none;
+}
+
+.fontawesome-i2svg-complete .App-button {
+	text-align: center;
+}
+
+.fontawesome-i2svg-complete .backup-label {
+	display: none;
+}
+
+.fontawesome-i2svg-complete i.fab {
+	display: inline-block;
+}
+
 .svg-inline--fa {
 	height: 100% !important;
 	width: 100% !important;
