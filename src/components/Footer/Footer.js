@@ -7,7 +7,7 @@ export class Footer extends Component {
     const today = new Date();
 
     return (
-      <footer className="App-footer">
+      <footer className="App__footer">
         <p>© Joni Rämö {today.getFullYear()}</p>
       </footer>
     );

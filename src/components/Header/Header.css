@@ -1,4 +1,4 @@
-.App-header {
+.App__header {
   animation: pan 120s 4s infinite linear;
   background: #222 url(../../assets/img/joey-kyber-107712.jpg);
   color: white;
@@ -10,7 +10,7 @@
   position: relative;
 }
 
-.App-logo {
+.App__header-logo {
   height: 11rem;
   width: 14rem;
   z-index: 3;
@@ -18,8 +18,8 @@
 
 /* SIGNATURE STYLES */
 .main-stroke {
-  animation: sign 1.5s 1 ease-in;
-  animation-delay: 1.5s;
+  animation: sign 1.25s 1 ease-in;
+  animation-delay: 1.25s;
   animation-fill-mode: forwards;
   opacity: 0;
   stroke-dasharray: 555;
@@ -40,7 +40,7 @@
 }
 
 /* HIDDEN BACKGROUND STYLES */
-.overlay {
+.App__header-overlay {
   animation: fade-in-bg 1.5s 4s ease-in;
   animation-fill-mode: forwards;
   background: #222;

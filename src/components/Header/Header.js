@@ -7,10 +7,10 @@ import './Header.css';
 export class Header extends Component {
   render() {
     return (
-      <header className="App-header">
-        <div className="overlay"/>
-        <div className="App-logo">
-          <ReactSVG path={signature} alt="Logo"/>
+      <header className="App__header">
+        <div className="App__header-overlay" />
+        <div className="App__header-logo">
+          <ReactSVG path={signature} alt="Logo" />
         </div>
       </header>
     );
