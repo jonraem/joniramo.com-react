@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Hero from '../../components/Hero/Hero';
 import Buttons from '../../components/Buttons/Buttons';
 import Footer from '../../components/Footer/Footer';
-import './App.css';
+import './App.scss';
 
 export class App extends Component {
   componentWillMount() {

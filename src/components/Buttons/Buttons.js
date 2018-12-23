@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './Buttons.css';
+import './Buttons.scss';
 
 export class Header extends Component {
   render() {

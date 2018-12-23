@@ -1,5 +1,5 @@
 import React from 'react'
-import './Snowfall.css';
+import './Snowfall.scss';
 
 const Snowfall = () => {
   return (

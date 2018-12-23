@@ -5,7 +5,7 @@ import ReactSVG from 'react-svg';
 
 import Snowfall from '../Snowfall/Snowfall';
 import signature from '../../assets/img/signature.svg';
-import './Hero.css';
+import './Hero.scss';
 
 export class Hero extends Component {
   render() {
