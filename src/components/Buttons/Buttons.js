@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import './Buttons.scss';
 
 export class Header extends Component {

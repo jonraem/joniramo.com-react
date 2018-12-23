@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import Hero from '../../components/Hero/Hero';
 import Buttons from '../../components/Buttons/Buttons';
 import Footer from '../../components/Footer/Footer';
