@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Snowfall from './Snowfall';
+import Christmas from './Christmas';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<Snowfall />, div);
+  ReactDOM.render(<Christmas />, div);
 });

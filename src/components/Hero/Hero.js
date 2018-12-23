@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
 import ReactSVG from 'react-svg';
-import Snowfall from '../Snowfall/Snowfall';
+import Christmas from '../Christmas/Christmas';
 import { isChristmasTime } from '../../utils/helpers';
 import signature from '../../assets/svg/signature.svg';
 import './Hero.scss';
@@ -17,12 +17,14 @@ export class Hero extends Component {
       <div className={heroClassName}>
         <div className="App__hero-overlay">
           {isChristmasTime && (
-            <Snowfall />
+            <Christmas />
           )}
         </div>
-        <div className="App__hero-logo">
-          <ReactSVG src={signature} alt="Logo" />
-        </div>
+        <ReactSVG
+          src={signature}
+          className="App__hero-logo"
+          alt="Joni Rämö"
+        />
       </div>
     );
   }
