@@ -18,8 +18,8 @@
 
 /* SIGNATURE STYLES */
 .main-stroke {
-  animation: sign 1.25s 1 ease-in;
-  animation-delay: 1.25s;
+  animation: sign 1s 1 ease-in;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
   opacity: 0;
   stroke-dasharray: 555;
@@ -41,7 +41,7 @@
 
 /* HIDDEN BACKGROUND STYLES */
 .App__hero-overlay {
-  animation: fade-in-bg 1.5s 4s ease-in;
+  animation: fade-in-bg 1.25s 4s ease-in;
   animation-fill-mode: forwards;
   background: #222;
   height: 100%;
@@ -50,6 +50,7 @@
   top: 0;
   width: 100%;
   z-index: 2;
+  overflow: hidden;
 }
 
 @keyframes pan {
