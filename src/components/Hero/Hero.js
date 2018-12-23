@@ -24,7 +24,7 @@ export class Hero extends Component {
           )}
         </div>
         <div className="App__hero-logo">
-          <ReactSVG path={signature} alt="Logo" />
+          <ReactSVG src={signature} alt="Logo" />
         </div>
       </div>
     );
