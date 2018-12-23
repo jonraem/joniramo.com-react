@@ -1,30 +1,24 @@
 .App {
   display: flex;
   flex-direction: column;
+  margin: auto;
+  width: 50rem;
   height: 100%;
 }
 
-.App-content {
-  flex: 1 0 auto;
-}
-
-.App {
-  margin: auto;
-  width: 50rem;
-}
-
-.App-content {
+.App__content {
   display: flex;
   flex-direction: row;
+  flex: 1 0 auto;
+
+  & > div {
+    box-sizing: border-box;
+    width: 50%;
+    height: fit-content;
+  }
 }
 
-.App-content > div {
-  box-sizing: border-box;
-  width: 50%;
-  height: fit-content;
-}
-
-.App-intro {
+.App__intro {
   font-size: 1.39rem;
   padding: 2rem;
 }
@@ -36,15 +30,15 @@
 }
 
 @media (max-width: 768px) {
-  .App-content {
+  .App__content {
     flex-direction: column-reverse;
+
+    & > div {
+      width: 100%;
+    }
   }
 
-  .App-content > div {
-    width: 100%;
-  }
-
-  .App-intro {
+  .App__intro {
     padding: 2rem 2rem 1rem;
   }
 }

@@ -23,9 +23,9 @@ export class App extends Component {
     return (
       <div className="App">
         <Hero />
-        <div className="App-content">
+        <div className="App__content">
           <Buttons />
-          <div className="App-intro">
+          <div className="App__intro">
             <p>
               Hello, my name is Joni. I'm a <u>web developer</u> from the beautiful city of Turku in Finland. I love practical design, solving creative challenges and researching business and psychology.
             </p>

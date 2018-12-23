@@ -10,10 +10,6 @@
   position: relative;
 }
 
-.App__hero--xmas {
-  background: #222 url(../../assets/img/aurora-borealis.png);
-}
-
 .App__hero-logo {
   height: 11rem;
   width: 14rem;
@@ -75,5 +71,23 @@
   }
   to {
     background: rgba(0,0,0,0.3);
+  }
+}
+
+/* CHRISTMAS STYLES */
+
+.App__hero--xmas {
+  background: #222 url(../../assets/img/aurora-borealis.png);
+
+  @keyframes pan {
+    0% {
+      background-position: 100% 50%;
+    }
+    50% {
+      background-position: 0 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
   }
 }
