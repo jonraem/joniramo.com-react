@@ -6,7 +6,8 @@
     "classnames": "^2.2.6",
     "moment": "^2.23.0",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "react-svg": "^7.2.2"
   },
   "devDependencies": {
     "react-scripts": "^2.1.1"
