@@ -10,6 +10,10 @@
   position: relative;
 }
 
+.App__hero--xmas {
+  background: #222 url(../../assets/img/aurora-borealis.png);
+}
+
 .App__hero-logo {
   height: 11rem;
   width: 14rem;
