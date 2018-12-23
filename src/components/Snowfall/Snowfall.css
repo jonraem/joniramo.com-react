@@ -1,4 +1,4 @@
-.snowfall__one {
+.Snowfall__one {
   width: 1px;
   height: 1px;
   background: transparent;
@@ -6,7 +6,7 @@
   animation: animStar 50s linear infinite;
 }
 
-.snowfall__two {
+.Snowfall__two {
   width: 2px;
   height: 2px;
   background: transparent;
@@ -14,7 +14,7 @@
   animation: animStar 100s linear infinite;
 }
 
-.snowfall__two:after {
+.Snowfall__two:after {
   content: " ";
   position: absolute;
   top: 2000px;
@@ -25,7 +25,7 @@
 	 animation: animStar 350s linear infinite;
 }
 
-.snowfall__three {
+.Snowfall__three {
   width: 3px;
   height: 3px;
   background: transparent;
@@ -33,7 +33,7 @@
   animation: animStar 250s linear infinite;
 }
 
-.snowfall__three:after {
+.Snowfall__three:after {
   content: " ";
   position: absolute;
   top: 1000px;
