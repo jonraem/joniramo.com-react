@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Header from '../../components/Header/Header';
+import Hero from '../../components/Hero/Hero';
 import Buttons from '../../components/Buttons/Buttons';
 import Footer from '../../components/Footer/Footer';
 import './App.css';
@@ -22,9 +22,9 @@ export class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header/>
+        <Hero />
         <div className="App-content">
-          <Buttons/>
+          <Buttons />
           <div className="App-intro">
             <p>
               Hello, my name is Joni. I'm a <u>web developer</u> from the beautiful city of Turku in Finland. I love practical design, solving creative challenges and researching business and psychology.
@@ -37,7 +37,7 @@ export class App extends Component {
             </p>
           </div>
         </div>
-        <Footer/>
+        <Footer />
       </div>
     );
   }

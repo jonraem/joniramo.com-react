@@ -1,4 +1,4 @@
-.App__header {
+.App__hero {
   animation: pan 120s 4s infinite linear;
   background: #222 url(../../assets/img/joey-kyber-107712.jpg);
   color: white;
@@ -10,7 +10,7 @@
   position: relative;
 }
 
-.App__header-logo {
+.App__hero-logo {
   height: 11rem;
   width: 14rem;
   z-index: 3;
@@ -40,7 +40,7 @@
 }
 
 /* HIDDEN BACKGROUND STYLES */
-.App__header-overlay {
+.App__hero-overlay {
   animation: fade-in-bg 1.5s 4s ease-in;
   animation-fill-mode: forwards;
   background: #222;
