@@ -3,12 +3,13 @@ html, body, #root {
 }
 
 body {
-  font-family: sans-serif;
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
+  color: #222;
 }
 
-p {
-  color: #222;
+p,
+a {
   font-family: "Roboto Mono", monospace;
 }
