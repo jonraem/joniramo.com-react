@@ -3,6 +3,15 @@
   text-align: center;
 }
 
+.App__footer-attribution {
+  font-size: .5rem;
+  color: #B5B8BA;
+
+  a {
+    color: #B5B8BA;
+  }
+}
+
 @media (max-width: 768px) {
   .App__footer {
     font-size: 1.2rem;
