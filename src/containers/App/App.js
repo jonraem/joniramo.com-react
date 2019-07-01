@@ -26,13 +26,13 @@ export class App extends Component {
           <Buttons />
           <div className="App__intro">
             <p>
-              Hello, my name is Joni. I'm a <u>web developer</u> from the beautiful city of Turku in Finland. I love practical design, solving creative challenges and researching business and psychology.
+              Hello, my name is Joni. I'm a <u>web developer</u> currently residing in Helsinki, the beautiful capital of Finland. I love practical design, solving creative challenges and meeting new people.
             </p>
             <p>
-              Find out more about me and get in touch with me for any inquiries or simply to say hi.
+              Find out more about me, and get in touch with me for any inquiries or simply to say hi.
             </p>
             <p>
-              And stay awesome.
+              And keep it fresh.
             </p>
           </div>
         </div>
