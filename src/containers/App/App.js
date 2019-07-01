@@ -8,16 +8,23 @@ const getRandomTagline = () => {
   const listOfTaglines = [
     'keep it fresh',
     'stay awesome',
+    'strive for greatness',
+    'work smart, not hard',
+    'believe in yourself',
+    'remember to smile',
     'just do it',
+    'keep hustling',
     'keep on trucking\'',
     'rock on',
     'eat your vegetables',
+    'stay hydrated',
+    'exercise regularly',
     'don\'t drink and drive',
     'always wear a helmet',
     'live long and prosper',
-    'may the Force be with you'
+    'may the Force be with you',
+    'always look on the bright side of life'
   ];
-
   const max = listOfTaglines.length;
   const randomIndex = Math.floor(Math.random() * Math.floor(max));
   
