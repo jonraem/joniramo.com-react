@@ -1,6 +1,7 @@
 .App__hero {
-  animation: pan 120s 4s infinite linear;
-  background: #222 url(../../assets/img/joey-kyber-107712.jpg);
+  // animation: pan 80s 4s infinite linear;
+  background: #222 url(../../assets/img/palm-leaves.jpg);
+  background-position: 80% 50%;
   color: white;
   display: flex;
   justify-content: center;
@@ -41,7 +42,7 @@
 
 /* HIDDEN BACKGROUND STYLES */
 .App__hero-overlay {
-  animation: fade-in-bg 1.25s 4s ease-in;
+  animation: fade-in-bg 1s 2.5s ease-in;
   animation-fill-mode: forwards;
   background: #222;
   height: 100%;
@@ -55,13 +56,13 @@
 
 @keyframes pan {
   0% {
-    background-position: 100% 30%;
+    background-position: 100% 50%;
   }
   50% {
-    background-position: 0 30%;
+    background-position: 0 50%;
   }
   100% {
-    background-position: 100% 30%;
+    background-position: 100% 50%;
   }
 }
 
