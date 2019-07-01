@@ -4,6 +4,26 @@ import Buttons from '../../components/Buttons/Buttons';
 import Footer from '../../components/Footer/Footer';
 import './App.scss';
 
+const getRandomTagline = () => {
+  const listOfTaglines = [
+    'keep it fresh',
+    'stay awesome',
+    'just do it',
+    'keep on trucking\'',
+    'rock on',
+    'eat your vegetables',
+    'don\'t drink and drive',
+    'always wear a helmet',
+    'live long and prosper',
+    'may the Force be with you'
+  ];
+
+  const max = listOfTaglines.length;
+  const randomIndex = Math.floor(Math.random() * Math.floor(max));
+  
+  return <span className="App__intro-tagline">{listOfTaglines[randomIndex]}</span>;
+};
+
 export class App extends Component {
   componentWillMount() {
     const link = document.createElement('link');
@@ -32,7 +52,7 @@ export class App extends Component {
               Find out more about me, and get in touch with me for any inquiries or simply to say hi.
             </p>
             <p>
-              And keep it fresh.
+              And {getRandomTagline()}.
             </p>
           </div>
         </div>

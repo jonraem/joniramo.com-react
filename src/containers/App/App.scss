@@ -20,7 +20,11 @@
 
 .App__intro {
   font-size: 1.39rem;
-  padding: 2rem;
+  padding: 2rem 2rem;
+}
+
+.App__intro-tagline {
+  text-shadow: 3px 3px #EFFF3B;
 }
 
 @media (max-width: 900px) {
