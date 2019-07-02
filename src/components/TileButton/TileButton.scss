@@ -112,6 +112,11 @@ i.fab {
 	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 
+.animated-button.thar-three.extra:before {
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
 /* ANIMATIONS */
 .animated-button:link, .animated-button:visited {
 	border-radius: 0;
