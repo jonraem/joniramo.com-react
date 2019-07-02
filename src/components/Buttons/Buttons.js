@@ -1,38 +1,57 @@
 import React, { Component } from 'react';
+import TileButton from '../TileButton/TileButton';
 import './Buttons.scss';
 
-export class Header extends Component {
+export class Buttons extends Component {
   render() {
     return (
       <div className="App__buttons-container">
         <div className="App__buttons">
-          <a href="https://github.com/jonraem" rel="noopener noreferrer" className="App__button animated-button thar-three gh" aria-label="Link to Github">
-            <span className="App__button-label">Github</span>
-            <i className="fab fa-github" aria-hidden="true"></i>
-          </a>
-          <a href="https://fi.linkedin.com/in/joni-rämö-59668988" rel="noopener noreferrer" className="App__button animated-button thar-three li" aria-label="Link to LinkedIn">
-            <span className="App__button-label">LinkedIn</span>
-            <i className="fab fa-linkedin" aria-hidden="true"></i>
-          </a>
-          <a href="https://twitter.com/jonraem" rel="noopener noreferrer" className="App__button animated-button thar-three tw" aria-label="Link to Twitter">
-            <span className="App__button-label">Twitter</span>
-            <i className="fab fa-twitter" aria-hidden="true"></i>
-          </a>
-          <a href="https://medium.com/@jonraem" rel="noopener noreferrer" className="App__button animated-button thar-three me" aria-label="Link to Medium">
-            <span className="App__button-label">Medium</span>
-            <i className="fab fa-medium-m" aria-hidden="true"></i>
-          </a>
-          <a href="https://instagram.com/jonraem" rel="noopener noreferrer" className="App__button animated-button thar-three ig" aria-label="Link to Instagram">
-            <span className="App__button-label">Instagr.</span>
-            <i className="fab fa-instagram" aria-hidden="true"></i>
-          </a>
-          <a href="mailto:joni@joniramo.com" className="App__button animated-button thar-three em">
-            <span>Send me email</span>
-          </a>
+          <TileButton
+            className="gh"
+            iconClassName="fab fa-github"
+            link="https://github.com/jonraem"
+            label="Github"
+            ariaLabel="Link to Github"
+          />
+          <TileButton
+            className="li"
+            iconClassName="fab fa-linkedin"
+            link="https://fi.linkedin.com/in/joni-rämö-59668988"
+            label="LinkedIn"
+            ariaLabel="Link to LinkedIn"
+          />
+          <TileButton
+            className="tw"
+            iconClassName="fab fa-twitter"
+            link="https://twitter.com/jonraem"
+            label="Twitter"
+            ariaLabel="Link to Twitter"
+          />
+          <TileButton
+            className="me"
+            iconClassName="fab fa-medium-m"
+            link="https://medium.com/@jonraem"
+            label="Medium"
+            ariaLabel="Link to Medium"
+          />
+          <TileButton
+            className="em"
+            link="mailto:joni@joniramo.com"
+            label="Send me email"
+            ariaLabel="Link to send email"
+          />
+          {/* <TileButton
+            className="gh"
+            iconClassName="fab fa-github"
+            link="https://github.com/jonraem"
+            label="Github"
+            ariaLabel="Link to Github"
+          /> */}
         </div>
       </div>
     );
   }
 }
 
-export default Header;
+export default Buttons;
