@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TileButton from '../TileButton/TileButton';
+import joniRamoPath from '../../assets/img/joni-ramo.jpg';
 import './Buttons.scss';
 
 export class Buttons extends Component {
@@ -40,14 +41,14 @@ export class Buttons extends Component {
             link="mailto:joni@joniramo.com"
             label="Send me email"
             ariaLabel="Link to send email"
+            showLabelAlways={true}
           />
-          {/* <TileButton
-            className="gh"
-            iconClassName="fab fa-github"
-            link="https://github.com/jonraem"
-            label="Github"
-            ariaLabel="Link to Github"
-          /> */}
+          <TileButton
+            className="extra"
+            link=""
+            imageSrc={joniRamoPath}
+            ariaLabel="Photo of Joni Rämö"
+          />
         </div>
       </div>
     );
