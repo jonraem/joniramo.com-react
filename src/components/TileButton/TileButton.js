@@ -10,8 +10,8 @@ const TileButton = (props) => {
     props.className
   );
 
-  return (
-    <a className={buttonClassName} href={props.link} rel="noopener noreferrer" aria-label={props.ariaLabel}>
+  const TileButtonContent = () => (
+    <div className="App__tile-button-content">
       {!!props.label && (
         <span className={props.showLabelAlways ? undefined : "App__tile-button-label"}>
           {props.label}
@@ -30,8 +30,23 @@ const TileButton = (props) => {
           alt={props.ariaLabel}
         />
       )}
-    </a>
+    </div>
   );
+
+    
+  if (props.link) {
+    return (
+      <a className={buttonClassName} href={props.link} rel="noopener noreferrer" aria-label={props.ariaLabel}>
+        <TileButtonContent />
+      </a>
+    );
+  } else {
+    return (
+      <div className={buttonClassName} onClick={props.onClick} aria-label={props.ariaLabel}>
+        <TileButtonContent />
+      </div>
+    );
+  }
 }
 
 export default TileButton;

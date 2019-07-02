@@ -45,7 +45,7 @@ export class Buttons extends Component {
           />
           <TileButton
             className="extra"
-            link=""
+            onClick={() => {}}
             imageSrc={joniRamoPath}
             ariaLabel="Photo of Joni Rämö"
           />
