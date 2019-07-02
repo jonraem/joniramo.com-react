@@ -1,0 +1,205 @@
+.App__button {
+  text-align: left;
+	height: 6rem;
+	margin: 1.5rem .5rem .5rem;
+	width: 6rem;
+
+	i {
+		font-size: 6rem;
+	}
+
+	span {
+		font-size: 1.2rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.App__button {
+		height: 6rem;
+		width: 6rem;
+	}
+
+	.App__button i {
+		font-size: 6rem;
+	}
+}
+
+@media (max-width: 428px) {
+  .App__button {
+		height: 4rem;
+		width: 4rem;
+	}
+
+	.App__button i {
+		font-size: 4rem;
+	}
+
+	.App__button span {
+		font-size: .769rem;
+	}
+}
+
+i.fab {
+	display: none;
+}
+
+.fontawesome-i2svg-complete .App__button {
+	text-align: center;
+}
+
+.fontawesome-i2svg-complete .App__button-label {
+	display: none;
+}
+
+.fontawesome-i2svg-complete i.fab {
+	display: inline-block;
+}
+
+.svg-inline--fa {
+	height: 100% !important;
+	width: 100% !important;
+}
+
+/* BUTTONS SPECIFIC STYLES */
+a.animated-button.thar-three.gh {
+	border: 2px solid #222 !important;
+	color: #222;
+}
+
+a.animated-button.thar-three.gh:before {
+	background: #9f7be1;
+	background: linear-gradient(to bottom, #893C99, #52327E);
+}
+
+a.animated-button.thar-three.li {
+	border: 2px solid #222 !important;
+	color: #222;
+}
+
+a.animated-button.thar-three.li:before {
+	background: #006CAC;
+}
+
+a.animated-button.thar-three.em {
+	border: 2px solid #222 !important;
+	color: #222;
+	text-align: left;
+}
+
+a.animated-button.thar-three.em:before {
+	background: #D0412E;
+	background: linear-gradient(45deg, rgba(168,49,25,1) 0%, rgba(255,78,51,1) 100%);
+}
+
+a.animated-button.thar-three.tw {
+	border: 2px solid #222 !important;
+	color: #222;
+}
+
+a.animated-button.thar-three.tw:before {
+	background: #1A97F0;
+}
+
+a.animated-button.thar-three.me {
+	border: 2px solid #222 !important;
+	color: #222;
+}
+
+a.animated-button.thar-three.me:before {
+	background: #201D1D;
+}
+
+a.animated-button.thar-three.ig {
+	border: 2px solid #222 !important;
+	color: #222;
+}
+
+a.animated-button.thar-three.ig:before {
+	background: #d6249f;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+/* ANIMATIONS */
+a.animated-button:link, a.animated-button:visited {
+	border-radius: 0;
+	color: #fff;
+	display: block;
+	font-size:14px;
+	font-weight: bold;
+	letter-spacing: .08em;
+	overflow: hidden;
+	padding: 14px 15px;
+	position: relative;
+	text-decoration: none;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	text-transform: uppercase;
+	transition: all 1s ease;
+}
+
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	height: 0;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transition: all 0.75s ease 0s;
+	width: 150%;
+	z-index: -1;
+}
+
+a.animated-button:link:hover, a.animated-button:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+}
+
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+}
+
+a.animated-button:link, a.animated-button:visited {
+	border-radius: 0;
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: .08em;
+	overflow: hidden;
+	padding: 14px 15px;
+	position: relative;
+	text-decoration: none;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	text-transform: uppercase;
+	transition: all 1s ease;
+}
+
+a.animated-button.thar-three {
+	cursor: pointer;
+	position: relative;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+a.animated-button.thar-three:hover {
+	background-color: transparent;
+	color: #fff !important;
+	text-shadow: nthree;
+}
+
+a.animated-button.thar-three:hover:before {
+	left: 0;
+	right: auto;
+	width: 100%;
+}
+
+a.animated-button.thar-three:before {
+	background: dodgerblue;
+	color: #fff !important;
+	content: '';
+	display: block;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+	width: 0;
+	z-index: -1;
+}
