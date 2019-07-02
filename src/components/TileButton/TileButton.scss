@@ -13,6 +13,11 @@
 	}
 }
 
+.App__tile-button-image {
+	height: 100%;
+	width: 100%;
+}
+
 @media (max-width: 768px) {
 	.App__tile-button {
 		height: 6rem;
@@ -61,9 +66,10 @@ i.fab {
 }
 
 /* BUTTONS SPECIFIC STYLES */
-a.animated-button.thar-three.gh {
+a.animated-button.thar-three {
 	border: 2px solid #222 !important;
-	color: #222;
+	color: #222 !important;
+	text-align: left;
 }
 
 a.animated-button.thar-three.gh:before {
@@ -71,19 +77,8 @@ a.animated-button.thar-three.gh:before {
 	background: linear-gradient(to bottom, #893C99, #52327E);
 }
 
-a.animated-button.thar-three.li {
-	border: 2px solid #222 !important;
-	color: #222;
-}
-
 a.animated-button.thar-three.li:before {
 	background: #006CAC;
-}
-
-a.animated-button.thar-three.em {
-	border: 2px solid #222 !important;
-	color: #222;
-	text-align: left;
 }
 
 a.animated-button.thar-three.em:before {
@@ -91,27 +86,12 @@ a.animated-button.thar-three.em:before {
 	background: linear-gradient(45deg, rgba(168,49,25,1) 0%, rgba(255,78,51,1) 100%);
 }
 
-a.animated-button.thar-three.tw {
-	border: 2px solid #222 !important;
-	color: #222;
-}
-
 a.animated-button.thar-three.tw:before {
 	background: #1A97F0;
 }
 
-a.animated-button.thar-three.me {
-	border: 2px solid #222 !important;
-	color: #222;
-}
-
 a.animated-button.thar-three.me:before {
 	background: #201D1D;
-}
-
-a.animated-button.thar-three.ig {
-	border: 2px solid #222 !important;
-	color: #222;
 }
 
 a.animated-button.thar-three.ig:before {
