@@ -61,47 +61,20 @@ i.fab {
 }
 
 .svg-inline--fa {
-	height: 100% !important;
-	width: 100% !important;
+	height: 6rem !important;
+	width: 6rem !important;
+
+	@media (max-width: 428px) {
+		height: 4rem !important;
+		width: 4rem !important;
+	}
 }
 
 /* BUTTONS SPECIFIC STYLES */
-a.animated-button.thar-three {
+.animated-button.thar-three {
 	border: 2px solid #222 !important;
 	color: #222 !important;
 	text-align: left;
-}
-
-a.animated-button.thar-three.gh:before {
-	background: #9f7be1;
-	background: linear-gradient(to bottom, #893C99, #52327E);
-}
-
-a.animated-button.thar-three.li:before {
-	background: #006CAC;
-}
-
-a.animated-button.thar-three.em:before {
-	background: #D0412E;
-	background: linear-gradient(45deg, rgba(168,49,25,1) 0%, rgba(255,78,51,1) 100%);
-}
-
-a.animated-button.thar-three.tw:before {
-	background: #1A97F0;
-}
-
-a.animated-button.thar-three.me:before {
-	background: #201D1D;
-}
-
-a.animated-button.thar-three.ig:before {
-	background: #d6249f;
-	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-}
-
-/* ANIMATIONS */
-a.animated-button:link, a.animated-button:visited {
-	border-radius: 0;
 	color: #fff;
 	display: block;
 	font-size:14px;
@@ -110,13 +83,45 @@ a.animated-button:link, a.animated-button:visited {
 	overflow: hidden;
 	padding: 14px 15px;
 	position: relative;
+}
+
+.animated-button.thar-three.gh:before {
+	background: #9f7be1;
+	background: linear-gradient(to bottom, #893C99, #52327E);
+}
+
+.animated-button.thar-three.li:before {
+	background: #006CAC;
+}
+
+.animated-button.thar-three.em:before {
+	background: #D0412E;
+	background: linear-gradient(45deg, rgba(168,49,25,1) 0%, rgba(255,78,51,1) 100%);
+}
+
+.animated-button.thar-three.tw:before {
+	background: #1A97F0;
+}
+
+.animated-button.thar-three.me:before {
+	background: #201D1D;
+}
+
+.animated-button.thar-three.ig:before {
+	background: #d6249f;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+/* ANIMATIONS */
+.animated-button:link, .animated-button:visited {
+	border-radius: 0;
 	text-decoration: none;
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
 	text-transform: uppercase;
 	transition: all 1s ease;
 }
 
-a.animated-button:link:after, a.animated-button:visited:after {
+.animated-button:link:after, .animated-button:visited:after {
 	content: "";
 	height: 0;
 	left: 50%;
@@ -127,16 +132,16 @@ a.animated-button:link:after, a.animated-button:visited:after {
 	z-index: -1;
 }
 
-a.animated-button:link:hover, a.animated-button:visited:hover {
+.animated-button:link:hover, .animated-button:visited:hover {
 	color: #FFF;
 	text-shadow: none;
 }
 
-a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+.animated-button:link:hover:after, .animated-button:visited:hover:after {
 	height: 450%;
 }
 
-a.animated-button:link, a.animated-button:visited {
+.animated-button:link, .animated-button:visited {
 	border-radius: 0;
 	color: #fff;
 	display: inline-block;
@@ -152,25 +157,25 @@ a.animated-button:link, a.animated-button:visited {
 	transition: all 1s ease;
 }
 
-a.animated-button.thar-three {
+.animated-button.thar-three {
 	cursor: pointer;
 	position: relative;
 	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
-a.animated-button.thar-three:hover {
+.animated-button.thar-three:hover {
 	background-color: transparent;
 	color: #fff !important;
 	text-shadow: nthree;
 }
 
-a.animated-button.thar-three:hover:before {
+.animated-button.thar-three:hover:before {
 	left: 0;
 	right: auto;
 	width: 100%;
 }
 
-a.animated-button.thar-three:before {
+.animated-button.thar-three:before {
 	background: dodgerblue;
 	color: #fff !important;
 	content: '';
