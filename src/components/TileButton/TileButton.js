@@ -4,28 +4,28 @@ import './TileButton.scss';
 
 const TileButton = (props) => {
   const buttonClassName = classnames(
-    'App__tile-button',
+    'tile-button',
     'animated-button',
     'thar-three',
     props.className
   );
 
   const TileButtonContent = () => (
-    <div className="App__tile-button-content">
+    <div className="tile-button__content">
       {!!props.label && (
-        <span className={props.showLabelAlways ? undefined : "App__tile-button-label"}>
+        <span className={props.showLabelAlways ? undefined : "tile-button__label"}>
           {props.label}
         </span>
       )}
       {!!props.iconClassName && (
         <i
-          className={classnames('App__tile-button-icon', props.iconClassName)}
+          className={classnames('tile-button__icon', props.iconClassName)}
           aria-hidden="true"
         />
       )}
       {!!props.imageSrc && (
         <img
-          className={classnames('App__tile-button-image', props.imageClassName)}
+          className={classnames('tile-button__image', props.imageClassName)}
           src={props.imageSrc}
           alt={props.ariaLabel}
         />

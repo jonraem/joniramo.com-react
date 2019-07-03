@@ -1,4 +1,4 @@
-.App__tile-button {
+.tile-button {
   text-align: left;
 	height: 6rem;
 	margin: 1.5rem .5rem .5rem;
@@ -13,33 +13,33 @@
 	}
 }
 
-.App__tile-button-image {
+.tile-button__image {
 	height: 100%;
 	width: 100%;
 }
 
 @media (max-width: 768px) {
-	.App__tile-button {
+	.tile-button {
 		height: 6rem;
 		width: 6rem;
 	}
 
-	.App__tile-button i {
+	.tile-button i {
 		font-size: 6rem;
 	}
 }
 
 @media (max-width: 428px) {
-  .App__tile-button {
+  .tile-button {
 		height: 4rem;
 		width: 4rem;
 	}
 
-	.App__tile-button i {
+	.tile-button i {
 		font-size: 4rem;
 	}
 
-	.App__tile-button span {
+	.tile-button span {
 		font-size: .769rem;
 	}
 }
@@ -48,11 +48,11 @@ i.fab {
 	display: none;
 }
 
-.fontawesome-i2svg-complete .App__tile-button {
+.fontawesome-i2svg-complete .tile-button {
 	text-align: center;
 }
 
-.fontawesome-i2svg-complete .App__tile-button-label {
+.fontawesome-i2svg-complete .tile-button__label {
 	display: none;
 }
 
