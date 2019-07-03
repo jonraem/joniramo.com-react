@@ -30,25 +30,25 @@ export class Buttons extends Component {
             ariaLabel="Link to Twitter"
           />
           <TileButton
-            className="me"
-            iconClassName="fab fa-medium-m"
-            link="https://medium.com/@jonraem"
-            label="Medium"
-            ariaLabel="Link to Medium"
-          />
-          <TileButton
-            className="em"
-            link="mailto:joni@joniramo.com"
-            label="Send me email"
-            ariaLabel="Link to send email"
-            showLabelAlways={true}
-          />
-          <TileButton
             className="extra"
             onClick={() => {}}
             imageSrc={joniRamoPath}
             ariaLabel="Photo of Joni Rämö"
           />
+          {/* <TileButton
+            className="me"
+            iconClassName="fab fa-medium-m"
+            link="https://medium.com/@jonraem"
+            label="Medium"
+            ariaLabel="Link to Medium"
+          /> */}
+          {/* <TileButton
+            className="em"
+            link="mailto:joni@joniramo.com"
+            label="Send me email"
+            ariaLabel="Link to send email"
+            showLabelAlways={true}
+          /> */}
         </div>
       </div>
     );
