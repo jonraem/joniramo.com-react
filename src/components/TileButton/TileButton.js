@@ -36,13 +36,26 @@ const TileButton = (props) => {
     
   if (props.link) {
     return (
-      <a className={buttonClassName} href={props.link} rel="noopener noreferrer" aria-label={props.ariaLabel}>
+      <a
+        className={buttonClassName}
+        href={props.link}
+        rel="noopener noreferrer"
+        onMouseEnter={props.onMouseEnter}
+        onMouseLeave={props.onMouseLeave}
+        aria-label={props.ariaLabel}
+      >
         <TileButtonContent />
       </a>
     );
   } else {
     return (
-      <div className={buttonClassName} onClick={props.onClick} aria-label={props.ariaLabel}>
+      <div
+        className={buttonClassName}
+        onClick={props.onClick}
+        onMouseEnter={props.onMouseEnter}
+        onMouseLeave={props.onMouseLeave}
+        aria-label={props.ariaLabel}
+      >
         <TileButtonContent />
       </div>
     );

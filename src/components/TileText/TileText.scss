@@ -4,26 +4,125 @@
   height: 6rem;
   margin: .5rem .5rem 1.5rem;
 	padding: 14px 15px;
-	color: white;
-	border: 2px solid rgb(238,174,202);
-	background: rgb(238,174,202);
-	background: linear-gradient(120deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-	
+	color: #222;
 	font-size: 1rem;
 	font-weight: bold;
 	letter-spacing: .08em;
 	text-transform: uppercase;
+
+	&.extra {
+		color: white;
+		background: rgb(238,174,202);
+		background: linear-gradient(120deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+		&:before {
+			content: '';
+			position: absolute;
+			right: 100%;
+			width: 0;
+			height: 0;
+			border-style: solid;
+		}
+
+		&:before {
+			top: 70px;
+			border-color: transparent rgb(238,174,202) transparent transparent;
+			border-width: 12px 17px 12px 12px;
+		}
+	}
+
+	&.github {
+		color: white;
+		background: rgb(124,54,145);
+		background: linear-gradient(141deg, rgba(124,54,145,1) 3%, rgba(128,65,166,1) 32%, rgba(123,69,179,1) 67%, rgba(119,26,233,1) 100%);
+
+		&:before {
+			content: '';
+			position: absolute;
+			right: 100%;
+			width: 0;
+			height: 0;
+			border-style: solid;
+		}
+
+		&:before {
+			top: 70px;
+			border-color: transparent rgb(124,54,145) transparent transparent;
+			border-width: 12px 17px 12px 12px;
+		}
+	}
+
+	&.linkedin {
+		color: white;
+		background: #006CAC;
+
+		&:before {
+			content: '';
+			position: absolute;
+			right: 100%;
+			width: 0;
+			height: 0;
+			border-style: solid;
+		}
+
+		&:before {
+			top: 70px;
+			border-color: transparent #006CAC transparent transparent;
+			border-width: 12px 17px 12px 12px;
+		}
+	}
+
+	&.twitter {
+		color: white;
+		background: #1A97F0;
+
+		&:before {
+			content: '';
+			position: absolute;
+			right: 100%;
+			width: 0;
+			height: 0;
+			border-style: solid;
+		}
+
+		&:before {
+			top: 70px;
+			border-color: transparent #1A97F0 transparent transparent;
+			border-width: 12px 17px 12px 12px;
+		}
+	}
+
+	&.email {
+		color: white;
+		background: rgb(191,25,25);
+		background: linear-gradient(62deg, rgba(191,25,25,1) 0%, rgba(253,29,29,1) 50%, rgba(252,121,69,1) 100%);
+
+		&:before {
+			content: '';
+			position: absolute;
+			right: 100%;
+			width: 0;
+			height: 0;
+			border-style: solid;
+		}
+
+		&:before {
+			top: 70px;
+			border-color: transparent rgb(191,25,25) transparent transparent;
+			border-width: 12px 17px 12px 12px;
+		}
+	}
 }
 
 // .tile-text:after,
-.tile-text:before {
-    content: '';
-    position: absolute;
-		right: 100%;
-    width: 0;
-    height: 0;
-    border-style: solid;
-}
+// .tile-text:before {
+//     content: '';
+//     position: absolute;
+// 		right: 100%;
+//     width: 0;
+//     height: 0;
+//     border-style: solid;
+// }
 
 // .tile-text:after {
 //     top: 68px;
@@ -31,8 +130,8 @@
 //     border-width: 10px 15px 10px 10px;
 // }
 
-.tile-text:before {
-    top: 70px;
-    border-color: transparent rgb(238,174,202) transparent transparent;
-    border-width: 12px 17px 12px 12px;
-}
+// .tile-text:before {
+//     top: 70px;
+//     border-color: transparent rgb(238,174,202) transparent transparent;
+//     border-width: 12px 17px 12px 12px;
+// }
