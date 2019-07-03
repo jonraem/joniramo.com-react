@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TileButton from '../TileButton/TileButton';
+import TileText from '../TileText/TileText';
 import joniRamoPath from '../../assets/img/joni-ramo.jpg';
 import './Buttons.scss';
 
@@ -8,6 +9,13 @@ export class Buttons extends Component {
     return (
       <div className="App__buttons-container">
         <div className="App__buttons">
+          <TileButton
+            className="extra"
+            onClick={() => {}}
+            imageSrc={joniRamoPath}
+            ariaLabel="Photo of Joni Rämö"
+          />
+          <TileText />
           <TileButton
             className="gh"
             iconClassName="fab fa-github"
@@ -35,12 +43,6 @@ export class Buttons extends Component {
             link="mailto:joni@joniramo.com"
             label="Send me email"
             ariaLabel="Link to send email"
-          />
-          <TileButton
-            className="extra"
-            onClick={() => {}}
-            imageSrc={joniRamoPath}
-            ariaLabel="Photo of Joni Rämö"
           />
           {/* <TileButton
             className="me"

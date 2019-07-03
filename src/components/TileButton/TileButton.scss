@@ -8,6 +8,7 @@
 	font-size: 14px;
 	font-weight: bold;
 	letter-spacing: .08em;
+	text-transform: uppercase;
 	overflow: hidden;
 	padding: 14px 15px;
 	position: relative;
@@ -116,7 +117,6 @@ i.fab {
 	border-radius: 0;
 	text-decoration: none;
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
-	text-transform: uppercase;
 	transition: all 1s ease;
 }
 

@@ -1,0 +1,38 @@
+.tile-text {
+  position: relative;
+  width: 6rem;
+  height: 6rem;
+  margin: .5rem .5rem 1.5rem;
+	padding: 14px 15px;
+	color: white;
+	border: 2px solid rgb(238,174,202);
+	background: rgb(238,174,202);
+	background: linear-gradient(120deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	
+	font-size: 1rem;
+	font-weight: bold;
+	letter-spacing: .08em;
+	text-transform: uppercase;
+}
+
+// .tile-text:after,
+.tile-text:before {
+    content: '';
+    position: absolute;
+		right: 100%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+// .tile-text:after {
+//     top: 68px;
+//     border-color: transparent lightgrey transparent transparent;
+//     border-width: 10px 15px 10px 10px;
+// }
+
+.tile-text:before {
+    top: 70px;
+    border-color: transparent rgb(238,174,202) transparent transparent;
+    border-width: 12px 17px 12px 12px;
+}
