@@ -30,6 +30,13 @@ export class Buttons extends Component {
             ariaLabel="Link to Twitter"
           />
           <TileButton
+            className="em"
+            iconClassName="fas fa-at"
+            link="mailto:joni@joniramo.com"
+            label="Send me email"
+            ariaLabel="Link to send email"
+          />
+          <TileButton
             className="extra"
             onClick={() => {}}
             imageSrc={joniRamoPath}
@@ -41,13 +48,6 @@ export class Buttons extends Component {
             link="https://medium.com/@jonraem"
             label="Medium"
             ariaLabel="Link to Medium"
-          /> */}
-          {/* <TileButton
-            className="em"
-            link="mailto:joni@joniramo.com"
-            label="Send me email"
-            ariaLabel="Link to send email"
-            showLabelAlways={true}
           /> */}
         </div>
       </div>
