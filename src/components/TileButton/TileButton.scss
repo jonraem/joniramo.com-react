@@ -1,8 +1,16 @@
 .tile-button {
-  text-align: left;
 	height: 6rem;
-	margin: 1.5rem .5rem .5rem;
 	width: 6rem;
+	margin: .5rem .5rem 1.5rem;
+	color: #222 !important;
+	border: 2px solid #222;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: .08em;
+	overflow: hidden;
+	padding: 14px 15px;
+	position: relative;
 
 	i {
 		font-size: 6rem;
@@ -71,20 +79,6 @@ i.fab {
 }
 
 /* BUTTONS SPECIFIC STYLES */
-.animated-button.thar-three {
-	border: 2px solid #222 !important;
-	color: #222 !important;
-	text-align: left;
-	color: #fff;
-	display: block;
-	font-size:14px;
-	font-weight: bold;
-	letter-spacing: .08em;
-	overflow: hidden;
-	padding: 14px 15px;
-	position: relative;
-}
-
 .animated-button.thar-three.gh:before {
 	background: rgb(124,54,145);
 	background: linear-gradient(141deg, rgba(124,54,145,1) 3%, rgba(128,65,166,1) 32%, rgba(123,69,179,1) 67%, rgba(119,26,233,1) 100%);
