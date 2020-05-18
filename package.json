@@ -4,12 +4,12 @@
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
-    "moment": "^2.23.0",
-    "node-sass": "^4.11.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-scripts": "^2.1.1",
-    "react-svg": "^7.2.2"
+    "moment": "^2.25.3",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1",
+    "react-svg": "^11.0.22"
   },
   "devDependencies": {},
   "scripts": {
