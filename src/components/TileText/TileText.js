@@ -9,7 +9,7 @@ const getTextForTile = hoveredTile => {
     case 'github':
       return 'Check out my Github page.';
     case 'linkedin':
-      return 'Network with me on LinkedIn.';
+      return 'Connect with me on LinkedIn.';
     case 'twitter':
       return 'Send me a Tweet.';
     case 'email':
