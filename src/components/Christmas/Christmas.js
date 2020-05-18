@@ -1,8 +1,8 @@
-import React from "react";
-import { ReactSVG } from "react-svg";
-import classnames from "classnames";
-import christmasLights from "../../assets/svg/christmas-lights.svg";
-import "./Christmas.scss";
+import React from 'react';
+import { ReactSVG } from 'react-svg';
+import classnames from 'classnames';
+import christmasLights from '../../assets/svg/christmas-lights.svg';
+import './Christmas.scss';
 
 const Christmas = () => {
   return (
@@ -10,8 +10,8 @@ const Christmas = () => {
       <ReactSVG
         src={christmasLights}
         className={classnames(
-          "Christmas__christmas-lights-icon",
-          "Christmas__christmas-lights-icon--left"
+          'Christmas__christmas-lights-icon',
+          'Christmas__christmas-lights-icon--left'
         )}
       />
       <div className="Christmas__snowfall-one" />
@@ -20,8 +20,8 @@ const Christmas = () => {
       <ReactSVG
         src={christmasLights}
         className={classnames(
-          "Christmas__christmas-lights-icon",
-          "Christmas__christmas-lights-icon--right"
+          'Christmas__christmas-lights-icon',
+          'Christmas__christmas-lights-icon--right'
         )}
       />
     </div>

@@ -17,13 +17,11 @@ const getTextForTile = hoveredTile => {
     default:
       break;
   }
-}
+};
 
 const TileText = ({ hoveredTile }) => {
   const tileClassName = classnames('tile-text', hoveredTile);
-  return (
-    <div className={tileClassName}>{getTextForTile(hoveredTile)}</div>
-  );
-}
+  return <div className={tileClassName}>{getTextForTile(hoveredTile)}</div>;
+};
 
 export default TileText;

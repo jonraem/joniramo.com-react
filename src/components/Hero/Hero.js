@@ -1,16 +1,16 @@
-import React, { Component } from "react";
-import classnames from "classnames";
-import { ReactSVG } from "react-svg";
-import Christmas from "../Christmas/Christmas";
-import { isChristmasTime } from "../../utils/helpers";
-import signature from "../../assets/svg/signature.svg";
-import "./Hero.scss";
+import React, { Component } from 'react';
+import classnames from 'classnames';
+import { ReactSVG } from 'react-svg';
+import Christmas from '../Christmas/Christmas';
+import { isChristmasTime } from '../../utils/helpers';
+import signature from '../../assets/svg/signature.svg';
+import './Hero.scss';
 
 export class Hero extends Component {
   render() {
-    let heroClassName = "App__hero";
+    let heroClassName = 'App__hero';
     if (isChristmasTime) {
-      heroClassName = classnames(heroClassName, "App__hero--xmas");
+      heroClassName = classnames(heroClassName, 'App__hero--xmas');
     }
 
     return (

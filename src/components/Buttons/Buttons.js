@@ -6,7 +6,7 @@ import './Buttons.scss';
 
 export class Buttons extends Component {
   state = {
-    hoveredTile: ''
+    hoveredTile: '',
   };
 
   setHoveredTile = tileName => {
@@ -14,8 +14,8 @@ export class Buttons extends Component {
   };
 
   unsetHoveredTile = () => {
-    this.setState({ hoveredTile: '' })
-  }
+    this.setState({ hoveredTile: '' });
+  };
 
   render() {
     return (

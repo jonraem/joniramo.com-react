@@ -1,27 +1,27 @@
-import React, { Component } from "react";
-import Hero from "../../components/Hero/Hero";
-import Buttons from "../../components/Buttons/Buttons";
-import Footer from "../../components/Footer/Footer";
-import "./App.scss";
+import React, { Component } from 'react';
+import Hero from '../../components/Hero/Hero';
+import Buttons from '../../components/Buttons/Buttons';
+import Footer from '../../components/Footer/Footer';
+import './App.scss';
 
 const getRandomTagline = () => {
   const listOfTaglines = [
-    "keep it fresh",
-    "stay awesome",
-    "strive for greatness",
-    "believe in yourself",
-    "remember to smile",
-    "keep hustling",
+    'keep it fresh',
+    'stay awesome',
+    'strive for greatness',
+    'believe in yourself',
+    'remember to smile',
+    'keep hustling',
     "keep on trucking'",
-    "rock on",
-    "eat your vegetables",
-    "stay hydrated",
-    "exercise regularly",
+    'rock on',
+    'eat your vegetables',
+    'stay hydrated',
+    'exercise regularly',
     "don't drink and drive",
-    "always wear a helmet",
-    "live long and prosper",
-    "may the Force be with you",
-    "always look on the bright side of life",
+    'always wear a helmet',
+    'live long and prosper',
+    'may the Force be with you',
+    'always look on the bright side of life',
   ];
   const max = listOfTaglines.length;
   const randomIndex = Math.floor(Math.random() * Math.floor(max));
@@ -33,12 +33,12 @@ const getRandomTagline = () => {
 
 export class App extends Component {
   componentWillMount() {
-    const link = document.createElement("link");
-    link.rel = "stylesheet";
-    link.href = "https://fonts.googleapis.com/css?family=Roboto+Mono";
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'https://fonts.googleapis.com/css?family=Roboto+Mono';
 
-    const script = document.createElement("script");
-    script.src = "https://use.fontawesome.com/releases/v5.0.2/js/all.js";
+    const script = document.createElement('script');
+    script.src = 'https://use.fontawesome.com/releases/v5.0.2/js/all.js';
     script.defer = true;
 
     document.head.appendChild(link);

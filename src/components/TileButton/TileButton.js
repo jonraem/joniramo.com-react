@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 import classnames from 'classnames';
 import './TileButton.scss';
 
-const TileButton = (props) => {
+const TileButton = props => {
   const buttonClassName = classnames(
     'tile-button',
     'animated-button',
@@ -13,7 +13,9 @@ const TileButton = (props) => {
   const TileButtonContent = () => (
     <div className="tile-button__content">
       {!!props.label && (
-        <span className={props.showLabelAlways ? undefined : "tile-button__label"}>
+        <span
+          className={props.showLabelAlways ? undefined : 'tile-button__label'}
+        >
           {props.label}
         </span>
       )}
@@ -33,7 +35,6 @@ const TileButton = (props) => {
     </div>
   );
 
-    
   if (props.link) {
     return (
       <a
@@ -60,6 +61,6 @@ const TileButton = (props) => {
       </div>
     );
   }
-}
+};
 
 export default TileButton;
