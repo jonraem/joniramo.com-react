@@ -53,10 +53,9 @@ export class App extends Component {
           <Buttons />
           <div className="App__intro">
             <p>
-              Hello, my name is Joni. I'm a <u>web developer</u> currently
-              residing in Helsinki, the beautiful capital of Finland. I love
-              practical design, solving creative challenges and meeting new
-              people.
+              Hello, my name is Joni. I'm a <u>web developer</u> currently based
+              in the beautiful city of Turku. I love practical design, solving
+              creative challenges and meeting new people.
             </p>
             <p>
               Find out more about me, and get in touch with me for any inquiries
